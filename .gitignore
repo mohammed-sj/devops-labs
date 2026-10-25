@@ -1,0 +1,23 @@
+# Secrets: never commit these
+.env
+*.env
+*.pem
+*.key
+id_rsa
+id_ecdsa
+id_ed25519
+
+# Terraform state and local caches (state files can hold secrets)
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Python
+__pycache__/
+.venv/
+venv/
+
+# Editor and OS files
+*.swp
+.DS_Store
+
